@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f0f4f8; 
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body {
+    width: 900px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px; 
+    height: 550px;
+    background-color: #ffffff; 
+    margin: 0; 
+    justify-content: space-around;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08), 0 3px 6px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+}
+
+.main-title {
+    font-size: 1.8em;
+    font-weight: 700;
+    color: #1e88e5; 
+    margin-bottom: 10px;
+}
+
+.instruction {
+    color: #4f4f4f;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.microphone {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background-color: #ef5350; 
+    background-image: url("https://www.iconpacks.net/icons/1/free-microphone-icon-342-thumb.png");
+    background-repeat: no-repeat;
+    background-size: 60%; 
+    background-position: center;
+    box-shadow: 0 4px 8px rgba(239, 83, 80, 0.4);
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.microphone:hover {
+    transform: scale(1.05);
+    background-color: #e53935; 
+    box-shadow: 0 6px 12px rgba(239, 83, 80, 0.6);
+}
+
+.speechOutput {
+    resize: none;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 200px; 
+    width: 85%;
+    background-color: #f8f8f8; 
+    border-radius: 10px;
+    padding: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    color: #333;
+    border: 1px solid #e0e0e0;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.ins { 
+    width: 350px;
+    height: 400px;
+    padding: 30px;
+    background-color: #e3f2fd; 
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.ins h1 {
+    color: #0d47a1; 
+    margin-bottom: 20px;
+    border-bottom: 2px solid #bbdefb;
+    padding-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.ins p {
+    font-family: 'Open Sans', sans-serif;
+    color: #455a64;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    font-size: 0.95em;
+}
